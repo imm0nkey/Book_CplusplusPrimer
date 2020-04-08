@@ -13,7 +13,7 @@ int main()
 				++cnt;          // 将cnt加1
 			else                // 否则, 打印前一个值的个数
 			{
-				std::cout << currVal << " occurs " 
+				std::cout << currVal << " occurs "
 					<< cnt << " times" << std::endl;
 				currVal = val;  // 记住新值
 				cnt = 1;        // 重置计数器
